@@ -3,7 +3,7 @@ import numpy as np
 
 
 def encrypt():
-    image = cv2.imread("Steve.png", cv2.IMREAD_GRAYSCALE)
+    image = cv2.imread("Image.png", cv2.IMREAD_GRAYSCALE)
 
     if image is None:
         raise ValueError("Could not load image.")
